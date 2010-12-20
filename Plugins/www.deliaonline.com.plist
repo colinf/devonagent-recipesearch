@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Searches the web using &lt;www.deliaonline.com&gt;.</string>
+	<key>EngineUrl</key>
+	<string>http://www.deliaonline.com/search.html?search_term=_agentQuery_&amp;search_scope=336&amp;page=_agentOffset_</string>
+	<key>FilterSimilarPages</key>
+	<false/>
+	<key>Identifier</key>
+	<string>com.colinfallon.devonagent.deliaonline.plugin</string>
+	<key>Info</key>
+	<string>Delia Online Plugin</string>
+	<key>LinksEnd</key>
+	<string>rightmarign</string>
+	<key>LinksMatching</key>
+	<array>
+		<string>*www.deliaonline.com/recipes/*</string>
+	</array>
+	<key>LinksStart</key>
+	<string>Page :</string>
+	<key>Name</key>
+	<string>Delia Online</string>
+	<key>OffsetPerPage</key>
+	<integer>1</integer>
+	<key>Operators</key>
+	<integer>1</integer>
+	<key>ParseLinks</key>
+	<true/>
+	<key>ResultsPerPage</key>
+	<integer>10</integer>
+	<key>Start</key>
+	<integer>1</integer>
+	<key>Version</key>
+	<string>1.0</string>
+</dict>
+</plist>

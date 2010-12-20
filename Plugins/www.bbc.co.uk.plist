@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Searches the web using &lt;www.bbc.co.uk/food&gt;.</string>
+	<key>EngineUrl</key>
+	<string>http://www.bbc.co.uk/food/recipes/search?page=_agentOffset_&amp;keywords=_agentQuery_</string>
+	<key>FilterSimilarPages</key>
+	<false/>
+	<key>Identifier</key>
+	<string>com.colinfallon.devonagent.bbcfood.plugin</string>
+	<key>Info</key>
+	<string>BBC Online Food Plugin</string>
+	<key>LinksEnd</key>
+	<string>pagInfo-recipe-numbers</string>
+	<key>LinksMatching</key>
+	<array>
+		<string>*www.bbc.co.uk/food/recipes/*</string>
+	</array>
+	<key>LinksStart</key>
+	<string>article-list</string>
+	<key>Name</key>
+	<string>BBC Online Food</string>
+	<key>OffsetPerPage</key>
+	<integer>1</integer>
+	<key>Operators</key>
+	<integer>17</integer>
+	<key>ParseLinks</key>
+	<true/>
+	<key>ResultsPerPage</key>
+	<integer>15</integer>
+	<key>Start</key>
+	<integer>1</integer>
+	<key>Version</key>
+	<string>1.0</string>
+</dict>
+</plist>
